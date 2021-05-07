@@ -1,0 +1,16 @@
+.dashboard__itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.dashboard__imageContainer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dashboard__itemContainer h3 {
+  margin-bottom: 15px;
+}

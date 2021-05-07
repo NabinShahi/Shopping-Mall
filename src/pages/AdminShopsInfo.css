@@ -1,0 +1,16 @@
+.shopDetails {
+    margin: 50px 50px;
+  }
+  
+  .shopDetails__header {
+    width: 75%;
+    margin: auto;
+  }
+  
+  .shopDetails__images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  

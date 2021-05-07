@@ -1,0 +1,4 @@
+.dashboard__viewAll:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

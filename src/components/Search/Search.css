@@ -1,0 +1,43 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input {
+  height: 40px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 0px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.search button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    float: none;
+  }
+  .search button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+}

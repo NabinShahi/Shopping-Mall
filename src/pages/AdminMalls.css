@@ -1,0 +1,14 @@
+.adminMalls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminMalls__List {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    row-gap: 10rem;
+    column-gap: 10rem;
+}
